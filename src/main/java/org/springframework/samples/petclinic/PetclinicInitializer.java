@@ -77,5 +77,5 @@ public class PetclinicInitializer extends AbstractDispatcherServletInitializer {
         CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter("UTF-8", true);
         return new Filter[]{characterEncodingFilter};
     }
-
+// coucou !
 }
